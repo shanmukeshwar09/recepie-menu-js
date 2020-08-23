@@ -9,7 +9,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
   margin-top: 30px;
 }
 
@@ -21,7 +20,7 @@ body {
 }
 
 .button-grid {
-  margin: 12px auto;
+  margin: 9px auto;
 }
 
 button {
@@ -39,7 +38,7 @@ button:hover,
   color: white;
 }
 .recepie-grid {
-  width: 70%;
+  margin: 18px auto;
   display: grid;
   justify-content: center;
   align-items: center;
