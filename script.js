@@ -8,6 +8,7 @@ document.getElementById("all").classList.add("button-bg");
 
 buttons.forEach((element) => {
   element.addEventListener("click", (event) => {
+    console.log(event.target.id);
     current_items = [];
     grid.innerHTML = "";
 
